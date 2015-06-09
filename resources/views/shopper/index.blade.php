@@ -43,17 +43,16 @@
 		</div>
 	</div>
 	<div class="row">
-
      	@for ($i = 0; $i < 15; $i++)
-
-     		<div class="col-md-12 block-heading border-bottom">
-				 <b>Carulla Pepe Sierra</b>
-                <span class="pull-right text-muted small"><em><i class="fa fa-clock-o"></i> D/M/YYYY 15:30 </i></em>
-                </span>
-			</div>
-
+     		<a href="{{ url('/shopper/order') }}">
+	     		<div class="col-md-12 block-heading border-bottom">
+					<b>Carulla Pepe Sierra</b>
+	                <span class="pull-right text-muted small"><em><i class="fa fa-clock-o"></i> D/M/YYYY 15:30 </i></em>
+	                </span>
+		            
+				</div>
+			</a>
 		@endfor
-            
 	</div>
 </div>
 @endsection

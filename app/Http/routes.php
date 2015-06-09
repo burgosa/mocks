@@ -20,6 +20,9 @@ Route::get('shopper', 'ShopperController@index'); //to list the retailers
 Route::get('shopper/order', 'ShopperController@order_proposed'); //to list the retailers
 Route::get('shopper/order-info', 'ShopperController@order_info'); //to list the retailers
 
+Route::get('shopper/retailer-1', 'ShopperController@retailer_1'); //to list the retailers
+Route::get('shopper/retailer-2', 'ShopperController@retailer_2'); //to list the retailers
+
 //retailers
 Route::get('retailers', 'HomeController@retailers_list'); //to list the retailers
 Route::get('retailers/show-new', 'HomeController@retailers_view'); //For both show and new

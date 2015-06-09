@@ -53,6 +53,11 @@
 	.navbar{
 		margin: 0px;
 	}
+	a, a:hover{
+
+		color:#333333;
+
+	}
 
 	</style>
 </head>

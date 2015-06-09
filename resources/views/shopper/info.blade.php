@@ -47,3 +47,14 @@
 	</div>
 </div>
 @endsection
+
+@section('explanation')
+    @parent
+    <h2> Comments </h2>
+    <ol>
+    	<li>Mapa del cliente</li>
+    	<li>Llamar al cliente link</li>
+    	<li>Ver productos enseña los detalles de los productos de la orden</li>
+    	<li>Llamar a mercadoni se pone en contacto con nuestro servicio al cliente</li>
+    </ol>
+@stop

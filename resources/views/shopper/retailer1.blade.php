@@ -7,8 +7,8 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12 text-center">
-			<span class="pull-left"><a href="{{ url('/shopper') }}"><i class="fa fa-chevron-left"></i></a></span> 
-			<b class="text-center"> Nueva Orden </b><span class="pull-right">
+			<!-- <span class="pull-left"><a href="{{ url('/shopper') }}"><i class="fa fa-chevron-left"></i></a></span> -->
+			<b class="text-center"> Orden Aceptada </b><span class="pull-right">
 			<span class="pull-right"><a href="{{ url('/shopper/order-info') }}"><i class="fa fa-info-circle"></i></a></span>
 		</div>
 	</div>
@@ -36,7 +36,7 @@
 	<br><br><br><br><br><br><br><br><br><br><br><br>
 	<div class="row">
 		<div class="col-md-12">
-			<a href="{{ url('/shopper/retailer-1') }}" class="btn btn-block btn-primary">Aceptar Orden</a>
+			<a href="{{ url('/shopper/retailer-2') }}" class="btn btn-block btn-success">Empezar a Comprar</a>
 		</div>
 	</div>
 </div>
@@ -46,9 +46,8 @@
 @section('explanation')
     @parent
     <h2> Comments </h2>
+    <p>Esta pantalla le dice al shopper que tiene esta orden acepta y tiene que ser fullfilled por el.</p>
     <ul>
-    	<li>Boton de Aceptar Orden simpre visible and fixed to the bottom</li>
-    	<li>Mostrar mapas individuales de localizacion de mercado y cliente</li>
     	<li>Cuando se enseñe el mapara abilitar la opcion de ser guiado por gmaps/waze</li>
     </ul>
 @stop
