@@ -1,5 +1,9 @@
 @extends('shopper')
+
+
 @section('content')
+
+<br>
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12 text-center">
@@ -29,7 +33,7 @@
 			<i class="fa fa-location-arrow"></i> Calle 114 #11A 30 <a class=" pull-right btn btn-sm btn-default">Mapa ></a> <br> Alvaro Burgos
 		</div>
 	</div>
-	<br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br><br><br>
 	<div class="row">
 		<div class="col-md-12">
 			<btn class="btn btn-block btn-primary">Aceptar Orden</btn>

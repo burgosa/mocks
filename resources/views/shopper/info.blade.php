@@ -1,5 +1,6 @@
 @extends('shopper')
 @section('content')
+<br>
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12 text-center">
@@ -27,14 +28,14 @@
 			<b><i class="fa fa-clock-o"></i> <span style="line-height: 30px">Entrega 9/6/2015 7:30PM</span></b>
 		</div>
 		<div class="col-md-12 block-heading border-bottom">
-			<i class="fa fa-phone"></i> <span style="line-height: 30px">Llamar al Cliente</span> <a class=" pull-right btn btn-sm btn-default">Llamar</a>
+			<i class="fa fa-phone"></i> <span style="line-height: 30px">Llamar al Cliente</span>
 		</div>
 		<div class="col-md-12 block-heading border-bottom">
-			<i class="fa fa-shopping-cart"></i> <span style="line-height: 30px">Ver los 15 Productos</span> <a class=" pull-right btn btn-sm btn-default">Ver </a>
+			<i class="fa fa-shopping-cart"></i> <span style="line-height: 30px">Ver los 15 Productos</span>
 		</div>
 		<div class="col-md-12 block-heading grey-bg">
 			<small>¿Problemas? ¿Ayuda?</small><br>
-			Llamar a Mercadoni
+			<i class="fa fa-phone"></i> Llamar a Mercadoni
 		</div>
 
 	</div>
