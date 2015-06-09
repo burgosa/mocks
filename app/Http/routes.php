@@ -11,11 +11,9 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
+Route::get('/', 'HomeController@all');
 
-Route::get('home', 'HomeController@index');
-
-
+Route::get('admin', 'HomeController@index');
 
 //shopper
 Route::get('shopper', 'ShopperController@index'); //to list the retailers

@@ -24,6 +24,12 @@ class HomeController extends Controller {
 	 *
 	 * @return Response
 	 */
+
+	public function all()
+	{
+		return view('welcome');
+	}
+
 	public function index()
 	{
 		return view('home');
