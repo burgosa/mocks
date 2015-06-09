@@ -11,9 +11,30 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'HomeController@index');
 
 Route::get('home', 'HomeController@index');
+
+
+
+//shopper
+Route::get('shopper', 'ShopperController@index'); //to list the retailers
+Route::get('shopper/order', 'ShopperController@order_proposed'); //to list the retailers
+Route::get('shopper/order-info', 'ShopperController@order_info'); //to list the retailers
+
+//retailers
+Route::get('retailers', 'HomeController@retailers_list'); //to list the retailers
+Route::get('retailers/show-new', 'HomeController@retailers_view'); //For both show and new
+
+//categories
+Route::get('categories', 'HomeController@categories_list'); //to list categories and filter by type
+Route::get('categories/show-new', 'HomeController@categories_view'); //to list categories and filter by type
+
+
+//products
+Route::get('products', 'HomeController@products_list'); //to list categories and filter by type
+Route::get('products/show-new', 'HomeController@products_view'); //to list categories and filter by type
+
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

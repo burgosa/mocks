@@ -18,10 +18,6 @@ class HomeController extends Controller {
 	 *
 	 * @return void
 	 */
-	public function __construct()
-	{
-		$this->middleware('auth');
-	}
 
 	/**
 	 * Show the application dashboard to the user.
@@ -31,6 +27,36 @@ class HomeController extends Controller {
 	public function index()
 	{
 		return view('home');
+	}
+
+	public function retailers_list()
+	{
+		return view('retailers.retailers_list');
+	}
+
+	public function retailers_view()
+	{
+		return view('retailers.retailers_view');
+	}
+
+	public function categories_list()
+	{
+		return view('categories.categories_list');
+	}
+
+	public function categories_view()
+	{
+		return view('categories.categories_view');
+	}
+
+	public function products_list()
+	{
+		return view('products.products_list');
+	}
+
+	public function products_view()
+	{
+		return view('products.products_view');
 	}
 
 }
