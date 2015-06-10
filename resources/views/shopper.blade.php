@@ -44,9 +44,11 @@
 		padding-bottom: 10px;
 	}
 	.grey-bg{
-		background-color: #e7e7e7
+		background-color: #e7e7e7;
 	}
-
+	.green-bg{
+		background-color: #A9E4AE;
+	}
 	.border-bottom{
 		border-bottom: 1px solid #e7e7e7;
 	}

@@ -46,7 +46,7 @@
 @section('explanation')
     @parent
     <h2> Comments </h2>
-    <p>Esta pantalla le dice al shopper que tiene esta orden acepta y tiene que ser fullfilled por el.</p>
+    <p>Esta pantalla le dice al shopper que tiene esta orden acepta y tiene que ser fullfilled por el. Ya no se le deja volver atras. Tener en mente que en el futuro se podran aceptar mas de una orden a la vez. Misma locations, diferente customer</p>
     <ul>
     	<li>Cuando se enseñe el mapara abilitar la opcion de ser guiado por gmaps/waze</li>
     </ul>

@@ -38,6 +38,23 @@
 		</div>
 	</div>
 	<div class="row">
+		<div class="text-center block-heading green-bg border-bottom">
+			<h4 class=""> Trabajos Aceptados </h4>
+		</div>
+	</div>
+	<div class="row">
+     	@for ($i = 0; $i < 2; $i++)
+     		<a href="{{ url('/shopper/order') }}">
+	     		<div class="col-md-12 block-heading border-bottom">
+					<b>Carulla Pepe Sierra</b>
+	                <span class="pull-right text-muted small"><em><i class="fa fa-clock-o"></i> D/M/YYYY 15:30 </i></em>
+	                </span>
+		            
+				</div>
+			</a>
+		@endfor
+	</div>
+	<div class="row">
 		<div class="text-center block-heading grey-bg border-bottom">
 			<h4 class=""> Trabajos Disponibles </h4>
 		</div>

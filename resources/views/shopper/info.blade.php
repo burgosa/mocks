@@ -51,6 +51,7 @@
 @section('explanation')
     @parent
     <h2> Comments </h2>
+    <p>Esta pantalla siempre es accesible y se va actualizando el estado de compra</p>
     <ol>
     	<li>Mapa del cliente</li>
     	<li>Llamar al cliente link</li>
