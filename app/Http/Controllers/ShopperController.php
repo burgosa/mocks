@@ -58,4 +58,9 @@ class ShopperController extends Controller {
 		return view('shopper.product');
 	}
 
+	public function replacement()
+	{
+		return view('shopper.replacement');
+	}
+
 }

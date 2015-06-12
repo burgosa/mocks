@@ -16,7 +16,7 @@
 	<div class="row text-center" style="padding-bottom: 15px">
 		<img class="img-responsive" style="margin:auto"src="https://s3-us-west-2.amazonaws.com/mercadoni/live/5561617789e9c82e00184550/medium_5561617789e9c82e00184550_0.jpg">
 			<h4>Compota de Guayaba Heinz</h4>
-			<p>Unidad<p>
+			<p><b>Marca</b> Unidad<p>
 	</div>
 	<div class="row">
 		<div class="col-md-12 block-heading ">
@@ -26,15 +26,18 @@
 	<div class="row">
 		<div class="col-md-12 block-heading ">
 			<table class="table table-hover">
+		  		
 		  		<tr><td>Cantidad</td><td>1</td></tr>
+		  		<tr><td>Marca</td><td>Hola</td></tr>
 		  		<tr><td>Unidad</td><td>1 Litro</td></tr>
 		  		<tr><td>Precio</td><td>~8,000</td></tr>
+		  		<tr><td>Categoria</td><td>Bebidas</td></tr>
 			</table>
 		</div>
 	</div>	
 	<div class="row">
 		<div class="col-md-12 block-heading ">
-			<a class="btn btn-block btn-warning">Reemplazar / Devolución</a>
+			<a href="{{ url('/shopper/replacement') }}" class="btn btn-block btn-warning">Reemplazar / Reembolsar</a>
 		</div>
 	</div>
 </div>

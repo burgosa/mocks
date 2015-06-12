@@ -23,6 +23,7 @@ Route::get('shopper/order-info', 'ShopperController@order_info'); //to list the 
 Route::get('shopper/retailer-1', 'ShopperController@retailer_1'); //to list the retailers
 Route::get('shopper/retailer-2', 'ShopperController@retailer_2'); //to list the retailers
 Route::get('shopper/product', 'ShopperController@product'); //to list the retailers
+Route::get('shopper/replacement', 'ShopperController@replacement'); //to list the retailers
 
 //retailers
 Route::get('retailers', 'HomeController@retailers_list'); //to list the retailers

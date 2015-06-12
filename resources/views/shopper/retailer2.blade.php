@@ -7,7 +7,7 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12 text-center">
-			<!-- <span class="pull-left"><a href="{{ url('/shopper') }}"><i class="fa fa-chevron-left"></i></a></span> -->
+			<span class="pull-left"><a href="{{ url('/shopper') }}"><i class="fa fa-chevron-left"></i></a></span>
 			<b class="text-center"> Carulla Pepe Sierra </b><span class="pull-right">
 			<span class="pull-right"><a href="{{ url('/shopper/order-info') }}"><i class="fa fa-info-circle"></i></a></span>
 		</div>
@@ -34,7 +34,7 @@
 			  	<div class="media-body text-center">
 			  			<a href="{{ url('/shopper/product') }}">
 				    		<h5 class="media-heading">Compota de Guayaba Heinz</h5>
-				    		<p>Unidad<p>
+				    		<p><b>Marca</b> Unidad<p>
 			    		</a>
 			  	</div>
 			  	<br>
