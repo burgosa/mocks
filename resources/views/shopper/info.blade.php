@@ -39,12 +39,7 @@
 		</div>
 
 	</div>
-	<br><br><br><br><br><br><br><br><br>
-	<div class="row">
-		<div class="col-md-12">
-			<btn class="btn btn-block btn-primary">Aceptar Orden</btn>
-		</div>
-	</div>
+	
 </div>
 @endsection
 

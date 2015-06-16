@@ -49,6 +49,9 @@
 	.green-bg{
 		background-color: #A9E4AE;
 	}
+	.red-bg{
+		background-color: #d9534f;
+	}
 	.border-bottom{
 		border-bottom: 1px solid #e7e7e7;
 	}

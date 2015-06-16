@@ -22,6 +22,8 @@ Route::get('shopper/order-info', 'ShopperController@order_info'); //to list the 
 
 Route::get('shopper/retailer-1', 'ShopperController@retailer_1'); //to list the retailers
 Route::get('shopper/retailer-2', 'ShopperController@retailer_2'); //to list the retailers
+Route::get('shopper/retailer-2-revision', 'ShopperController@retailer_2_revision'); //to list the retailers
+Route::get('shopper/retailer-2-revision-end', 'ShopperController@retailer_2_revision_end'); //to list the retailers
 Route::get('shopper/product', 'ShopperController@product'); //to list the retailers
 Route::get('shopper/replacement', 'ShopperController@replacement'); //to list the retailers
 

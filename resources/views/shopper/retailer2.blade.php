@@ -18,7 +18,7 @@
 			<ul class="nav nav-tabs nav-justified">
 			  	<li role="presentation" class="active"><a href="{{ url('/shopper/retailer-2') }}"> (10) Lista</a></li>
   				<li role="presentation"><a href="{{ url('/shopper/retailer-2-carrito') }}">(1) Carrito</a></li>
-  				<li role="presentation"><a href="{{ url('/shopper/retailer-2-revision') }}">(4) Revisión</a></li>
+  				<li role="presentation"><a href="{{ url('/shopper/retailer-2-revision') }}">(3) Revisión</a></li>
 			</ul>
 		</div>
 	</div>
