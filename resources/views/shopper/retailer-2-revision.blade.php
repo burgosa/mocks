@@ -25,7 +25,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			<p class="text-center"> Tienes productos no encontrados. El cliente espera ser llamado para confirmar reemplazos.</p>
-			<a href="{{ url('/shopper/retailer-1') }}" class="btn btn-block btn-primary">Llamar al cliente</a>
+			<a href="#" class="btn btn-block btn-primary">Llamar al cliente</a>
 		</div>
 	</div>
 	<hr>
