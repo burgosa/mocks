@@ -19,7 +19,9 @@ Route::get('/', 'HomeController@all');
 Route::get('front', 'FrontController@index'); //to list the retailers
 Route::get('front/orders/summary', 'FrontController@orders_summary'); //to list the retailers
 
+//FRONT IOS
 
+Route::get('front-ios', 'FrontIosController@index'); //to list the retailers
 
 
 
