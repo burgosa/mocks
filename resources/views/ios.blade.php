@@ -51,6 +51,9 @@
 	.red-bg{
 		background-color: #d9534f;
 	}
+	.blue-bg{
+		background-color: #438ead;
+	}
 	.border-bottom{
 		border-bottom: 1px solid #e7e7e7;
 	}

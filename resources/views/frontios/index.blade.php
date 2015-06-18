@@ -48,7 +48,7 @@
 			6/9/2015
 		</div>
 		<div class="col-md-3 text-center special-block block-heading border-bottom">
-			A00560000<br>
+			<a href="{{ URL::to('front-ios/orders/summary') }}">A00560000</a>
 
 		</div>
 		<div class="col-md-3 text-center special-block block-heading border-bottom">
