@@ -29,14 +29,10 @@
 @section('content')
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-2 text-center special-block block-heading border-bottom">
-			6/9/2015
+		<div class="col-md-4 text-center special-block block-heading border-bottom">
+			<a href="{{ URL::to('front-ios/orders/summary') }}">6/9/2015</a>
 		</div>
-		<div class="col-md-3 text-center special-block block-heading border-bottom">
-			<a href="{{ URL::to('front-ios/orders/summary') }}">A00560000</a>
-
-		</div>
-		<div class="col-md-3 text-center special-block block-heading border-bottom">
+		<div class="col-md-4 text-center special-block block-heading border-bottom">
 			$60,000<span class="extra-details text-primary">Pendiente</span>
 		</div>
 		<div class="col-md-4 text-center special-block block-heading border-bottom">
@@ -44,14 +40,10 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-2 text-center special-block block-heading border-bottom">
+		<div class="col-md-4 text-center special-block block-heading border-bottom">
 			6/9/2015
 		</div>
-		<div class="col-md-3 text-center special-block block-heading border-bottom">
-			<a href="{{ URL::to('front-ios/orders/summary') }}">A00560000</a>
-
-		</div>
-		<div class="col-md-3 text-center special-block block-heading border-bottom">
+		<div class="col-md-4 text-center special-block block-heading border-bottom">
 			$60,000<span class="extra-details text-primary">Pagado</span>
 		</div>
 		<div class="col-md-4 text-center text-center special-block block-heading border-bottom">
@@ -59,14 +51,10 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-2 text-center special-block block-heading border-bottom">
+		<div class="col-md-4 text-center special-block block-heading border-bottom">
 			6/9/2015
 		</div>
-		<div class="col-md-3 text-center special-block block-heading border-bottom">
-			A00560000<br>
-
-		</div>
-		<div class="col-md-3 text-center special-block block-heading border-bottom">
+		<div class="col-md-4 text-center special-block block-heading border-bottom">
 			$0<span class="extra-details text-danger">Cancelado</span>
 		</div>
 		<div class="col-md-4 text-center special-block block-heading border-bottom">

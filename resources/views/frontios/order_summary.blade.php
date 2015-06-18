@@ -5,6 +5,8 @@
 	<div class="row">
 		<div class="col-md-12 special-block block-heading border-bottom">
 			<span class="light-grey big">Estado:</span> <span class="text-success big">Nueva</span>
+
+			<span class="pull-right light-grey big">#A00005000</span>
 		</div>
 	</div>
 	<br>
@@ -71,6 +73,14 @@
 		</div>
 		<div class="col-md-6 text-right  block-heading border-bottom">
 			Dejenlo en la puerta
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 text-left block-heading border-bottom">
+			Metodo de Pago
+		</div>
+		<div class="col-md-6 text-right block-heading border-bottom">
+			*4444 VISA
 		</div>
 	</div>
 

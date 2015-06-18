@@ -91,12 +91,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-md-12 special-block block-heading border-bottom text-center">
-			<span style="color:#29DD24" >Ver todos (14)</span>
-		</div>
-	</div>
-	<br>
+	<br><br><br><br><br><br>
 	<button class="btn btn-danger btn-block">CANCELAR CARULLA</button>
 	<br>
 </div>
