@@ -9,8 +9,8 @@
 	<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 	<link rel="stylesheet" href="{{ URL::to('bootstrap/css/bootstrap.css ') }}">
 	<link rel="stylesheet" href="{{ URL::to('font-awesome/css/font-awesome.css ') }}">
+	<link rel="stylesheet" href="{{ URL::to('css/front.css') }}">
 	<!-- Fonts -->
-	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,6 +34,9 @@
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
+					<li><a href="{{ url('/') }}">Home</a></li>
+				</ul>
+				<ul class="nav navbar-nav">
 					<li class="dropdown">
 			          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Catalog <span class="caret"></span></a>
 			          	<ul class="dropdown-menu" role="menu">
@@ -41,15 +44,9 @@
 				            <li><a href="{{ url('/categories') }}">Categories</a></li>
 				            <li><a href="{{ url('/products') }}">Products</a></li>
 				            <li class="divider"></li>
-				            <li><a href="#">Attributes</a></li>
-				            <li><a href="#">Content</a></li>
-				            <li><a href="#">Units</a></li>
+				            <li><a href="#">Retailer Catalogs</a></li>
 			          	</ul>
 			        </li>
-			        <li><a href="{{ url('/products-prices') }}">Stock & Prices</a></li>
-			        <li><a href="#">Orders</a></li>
-			        <li><a href="#">Users</a></li>
-			        <li><a href="#">Shoppers</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
@@ -66,7 +63,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">
-	           	@yield('content')
+				@yield('content')
 			</div>
 		</div>
 	</div>

@@ -45,16 +45,19 @@
 			<thead>
 				<tr>
 					<th>Type</th>
+					<th>Slug</th>
 					<th>Name</th>
 				<tr>
 			</thead>
 			<tbody>
 				<tr>
 					<td><span class="label label-success">Super</span></td>
+					<td>Slug</td>
 					<td>Cat 1</td>
 				</tr>
 				<tr>
 					<td><span class="label label-danger">Farma</span></td>
+					<td>Slug</td>
 					<td>Cat 1 > Cat 2</td>
 				</tr>
 			</tbody>

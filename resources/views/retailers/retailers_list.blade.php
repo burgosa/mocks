@@ -23,6 +23,8 @@
 					<th>Active</th>
 					<th>Name</th>
 					<th>Cat Tree</th>
+					<th>Locations</th>
+					<th>Min Order Value</th>
 				<tr>
 			</thead>
 			<tbody>
@@ -30,11 +32,15 @@
 					<td><span class="label label-success">Active</span></td>
 					<td>Carulla</td>
 					<td>Super</td>
+					<td>3</td>
+					<td>30,0000</td>
 				</tr>
 				<tr>
 					<td><span class="label label-default">Inactive</span></td>
 					<td>Pidefarma</td>
 					<td>Pharma</td>
+					<td>3</td>
+					<td>30,0000</td>
 				</tr>
 			</tbody>
 		</table>

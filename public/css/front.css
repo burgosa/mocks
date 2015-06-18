@@ -1,0 +1,165 @@
+.account-container{
+  max-width: 980px;
+  margin: auto;
+  margin-bottom: 200px;
+}
+
+.account-container .account-header .header-title{
+
+	display: inline-block;
+  padding: 10px 25px;
+  color: #9b9b9b;
+  margin-right: 20px;
+  font-weight: 700;
+  border-bottom: 5px solid transparent;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.account-container .account-header .header-title.active{
+
+	color: #000000;
+	border-bottom: 5px solid #64b46b;
+
+}
+
+.account-container .account-content {
+
+	margin-top: 50px;
+}
+
+
+#updatePersonalInfo > .first_name{
+
+  float: left;
+  width: 48%;
+}
+
+#updatePersonalInfo > .last_name{
+
+  float: right;
+  width: 48%;
+}
+
+#updatePersonalInfo > .email{
+  float: left;
+  width: 100%
+}
+
+#updatePersonalInfo > .cellphone{
+  float: left;
+  width: 100%
+}
+
+.account-list{
+  padding: 20px 30px;
+  cursor: pointer;
+}
+#monthNum{
+  float: left;
+  width: 48%;
+
+}
+#yearNum{
+  float: right;
+  width: 48%;
+}
+/* Orders */
+
+.account-content .orders-summary-table{
+  background-color: #fff;
+}
+
+.account-content .orders-summary-table th, .account-content .orders-summary-table td.normal{
+  padding: 15px 10px;
+}
+.account-content .orders-summary-table td.double{
+  padding-top: 10px;
+}
+
+.account-content .orders-summary-table .extra-details{
+  display: block;
+  float: none;
+  font-size: 11px;
+  line-height: 8px;
+  font-weight: 400; 
+}
+
+.account-content .orders-summary-table .label{
+  padding: 5px 10px;
+  border-radius: 0px;
+}
+
+.order-summary .panel{
+  border-radius: 0px;
+}
+
+.order-summary .panel .address-info{
+  padding: 0px;
+}
+
+.order-summary .retailer-info{
+  background-color: #438ead;
+  color: #fff;
+  width: 100%;
+  height: 60px;
+  padding: 10px 15px;
+}
+
+.order-summary .retailer-info .retailer-name{
+
+  font-size: 18px;
+  font-weight: 400
+}
+.order-summary .retailer-info .retailer-delivery-time{
+  display: block;
+  font-size: 12px
+}
+
+.order-summary .retailer-info .retailer-status{
+  display: block;
+}
+
+.order-summary .retailer-info .retailer-shopper{
+  display: block;
+  font-size: 12px
+}
+
+.order-summary .retailer-order .product-img{
+  width: 50px;
+}
+
+.order-summary .retailer-order .qty{
+  line-height: 50px;
+}
+
+.order-summary .retailer-order .product-name{
+  line-height: 25px;
+}
+
+.order-summary .retailer-order .product-info{
+  line-height: 25px;
+  color: #6F6F6F;
+  font-size: 12px;
+}
+
+.order-summary .order-totals-container{
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+
+.order-summary .order-totals .retailer-shipping{
+    color: #6F6F6F; 
+}
+
+.order-summary .order-totals .master-total{
+    font-size: 18px;
+    font-weight: 400
+}

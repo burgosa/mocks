@@ -31,6 +31,14 @@
               <input class="form-control">
             </div>
             <div class="form-group">
+              <label>Slug</label>
+              <input class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Min Order Value</label>
+              <input class="form-control">
+            </div>
+            <div class="form-group">
               <label>Category Type</label>
               <select class="form-control"><option></option>
                 <option value="1" selected>Super</option>

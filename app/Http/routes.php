@@ -13,7 +13,15 @@
 
 Route::get('/', 'HomeController@all');
 
-Route::get('admin', 'HomeController@index');
+
+//FRONT
+
+Route::get('front', 'FrontController@index'); //to list the retailers
+Route::get('front/orders/summary', 'FrontController@orders_summary'); //to list the retailers
+
+
+
+
 
 //shopper
 Route::get('shopper', 'ShopperController@index'); //to list the retailers
@@ -27,6 +35,9 @@ Route::get('shopper/retailer-2-revision-end', 'ShopperController@retailer_2_revi
 Route::get('shopper/product', 'ShopperController@product'); //to list the retailers
 Route::get('shopper/replacement', 'ShopperController@replacement'); //to list the retailers
 
+
+//ADMIN
+Route::get('admin', 'HomeController@index');
 //retailers
 Route::get('retailers', 'HomeController@retailers_list'); //to list the retailers
 Route::get('retailers/show-new', 'HomeController@retailers_view'); //For both show and new
@@ -39,6 +50,7 @@ Route::get('categories/show-new', 'HomeController@categories_view'); //to list c
 //products
 Route::get('products', 'HomeController@products_list'); //to list categories and filter by type
 Route::get('products/show-new', 'HomeController@products_view'); //to list categories and filter by type
+Route::get('products-prices', 'HomeController@products_prices'); //to list categories and filter by type
 
 
 Route::controllers([

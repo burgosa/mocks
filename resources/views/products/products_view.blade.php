@@ -124,6 +124,7 @@
                             <th>Special Price</th>
                             <th>R Price</th>
                             <th>R Special Price</th>
+                            <th>Visible</th>
                         </tr>
                         <tr>
                             <td><input type="checkbox" checked></td>
@@ -152,6 +153,7 @@
                             <td class="text-right">
                                 <input type="text"value="12"  class="form-control">
                             </td>
+                            <td><span class="label label-success">OK</span></td>
                         </tr>
                           <tr>
                             <td><input type="checkbox" checked></td>
@@ -180,6 +182,7 @@
                             <td class="text-right">
                                 <input type="text" value="12" class="form-control">
                             </td>
+                            <td><span class="label label-success">OK</span></td>
                         </tr>
                     
                     </tbody>

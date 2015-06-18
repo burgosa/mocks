@@ -65,4 +65,9 @@ class HomeController extends Controller {
 		return view('products.products_view');
 	}
 
+	public function products_prices()
+	{
+		return view('products.products_prices');
+	}
+
 }
