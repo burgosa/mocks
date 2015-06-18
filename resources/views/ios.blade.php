@@ -23,8 +23,8 @@
 
 	<style>
 	.ios-container{
-		height: 600px;
-		width: 360px;
+		height: 700px;
+		width: 410px;
 		background-color: #fff;
 		margin-top: 50px;
 		margin-left: 50px;
@@ -39,7 +39,6 @@
 	}
 
 	.block-heading{
-		width: 100%;
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
@@ -55,13 +54,26 @@
 	.border-bottom{
 		border-bottom: 1px solid #e7e7e7;
 	}
+	.light-grey{
+		color:#818181;
+	}
+	.big{
+		font-size: 18px;
+	}
 	.navbar{
 		margin: 0px;
 	}
 	a, a:hover{
-
 		color:#333333;
-
+	}
+	.extra-details{
+		font-size: 11px;
+		margin-top: 1px;
+		display: block;
+		line-height: 0
+	}
+	.special-block{
+		height: 48px;
 	}
 
 	</style>

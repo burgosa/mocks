@@ -22,6 +22,8 @@ Route::get('front/orders/summary', 'FrontController@orders_summary'); //to list 
 //FRONT IOS
 
 Route::get('front-ios', 'FrontIosController@index'); //to list the retailers
+Route::get('front-ios/orders/summary', 'FrontIosController@orders_summary'); //to list the retailers
+Route::get('front-ios/orders/summary/retailer', 'FrontIosController@orders_summary_retailer'); //to list the retailers
 
 
 

@@ -37,4 +37,9 @@ class FrontIosController extends Controller {
 	{
 		return view('frontios.order_summary');
 	}
+
+	public function orders_summary_retailer()
+	{
+		return view('frontios.order_summary_retailer');
+	}
 }

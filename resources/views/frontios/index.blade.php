@@ -14,7 +14,6 @@
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-user"></i></a>
@@ -28,20 +27,51 @@
 	</nav>
 @stop
 @section('content')
-
+<div class="container-fluid">
 	<div class="row">
-		<div class="col-md-12 block-heading grey-bg">
-			<h5>Cliente -  Alvaro Burgos</h5>
+		<div class="col-md-2 text-center special-block block-heading border-bottom">
+			6/9/2015
 		</div>
-		<div class="col-md-12 block-heading border-bottom">
-			<i class="fa fa-location-arrow"></i> <span style="line-height: 30px">Carrera 14 #111 30</span> <a class=" pull-right btn btn-sm btn-default">Mapa ></a>
+		<div class="col-md-3 text-center special-block block-heading border-bottom">
+			<a href="{{ URL::to('front-ios/orders/summary') }}">A00560000</a>
+
 		</div>
-		<div class="col-md-12 block-heading border-bottom">
-			<b><i class="fa fa-clock-o"></i> <span style="line-height: 30px">Entrega 9/6/2015 7:30PM</span></b>
+		<div class="col-md-3 text-center special-block block-heading border-bottom">
+			$60,000<span class="extra-details text-primary">Pendiente</span>
 		</div>
-		<div class="col-md-12 block-heading border-bottom">
-			<i class="fa fa-shopping-cart"></i> <span style="line-height: 30px">Ver los 15 Productos</span>
+		<div class="col-md-4 text-center special-block block-heading border-bottom">
+			<span class="label label-success">NUEVO</span><br>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-md-2 text-center special-block block-heading border-bottom">
+			6/9/2015
+		</div>
+		<div class="col-md-3 text-center special-block block-heading border-bottom">
+			A00560000<br>
 
+		</div>
+		<div class="col-md-3 text-center special-block block-heading border-bottom">
+			$60,000<span class="extra-details text-primary">Pagado</span>
+		</div>
+		<div class="col-md-4 text-center text-center special-block block-heading border-bottom">
+			<span class="label label-primary">COMPLETADO</span><br>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2 text-center special-block block-heading border-bottom">
+			6/9/2015
+		</div>
+		<div class="col-md-3 text-center special-block block-heading border-bottom">
+			A00560000<br>
+
+		</div>
+		<div class="col-md-3 text-center special-block block-heading border-bottom">
+			$0<span class="extra-details text-danger">Cancelado</span>
+		</div>
+		<div class="col-md-4 text-center special-block block-heading border-bottom">
+			<span class="label label-danger">CANCELADO</span><br>
+		</div>
+	</div>
+</div>
 @endsection

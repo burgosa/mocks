@@ -22,7 +22,7 @@
 			Carulla
 		</div>
 		<div class="col-md-5 block-heading border-bottom">
-			<a href="{{ URL::to('front-ios/orders/summary/retailer') }}">9/6/2015 14 - 15</a>
+			<a href="#">9/6/2015 14 - 15</a>
 		</div>
 		<div class="col-md-1 block-heading border-bottom">
 			<i class="fa fa-caret-right"></i>
