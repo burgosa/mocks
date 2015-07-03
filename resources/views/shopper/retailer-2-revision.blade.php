@@ -89,7 +89,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-12">
-			<a href="{{ url('/shopper/retailer-2-revision-end') }}" class="btn btn-block btn-primary">Finalizar Revision ></a>
+			<a href="{{ url('/shopper/retailer-2-revision-factura') }}" class="btn btn-block btn-primary">Finalizar Revision ></a>
 		</div>
 	</div>
 	<br><br>

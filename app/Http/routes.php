@@ -18,6 +18,7 @@ Route::get('/', 'HomeController@all');
 
 Route::get('front', 'FrontController@index'); //to list the retailers
 Route::get('front/orders/summary', 'FrontController@orders_summary'); //to list the retailers
+Route::get('front/orders/receipt', 'FrontController@orders_receipt'); //to list the retailers
 
 //FRONT IOS
 
@@ -32,9 +33,11 @@ Route::get('shopper', 'ShopperController@index'); //to list the retailers
 Route::get('shopper/order', 'ShopperController@order_proposed'); //to list the retailers
 Route::get('shopper/order-info', 'ShopperController@order_info'); //to list the retailers
 
+
 Route::get('shopper/retailer-1', 'ShopperController@retailer_1'); //to list the retailers
 Route::get('shopper/retailer-2', 'ShopperController@retailer_2'); //to list the retailers
 Route::get('shopper/retailer-2-revision', 'ShopperController@retailer_2_revision'); //to list the retailers
+Route::get('shopper/retailer-2-revision-factura', 'ShopperController@retailer_2_revision_factura'); //to list the retailers
 Route::get('shopper/retailer-2-revision-end', 'ShopperController@retailer_2_revision_end'); //to list the retailers
 Route::get('shopper/product', 'ShopperController@product'); //to list the retailers
 Route::get('shopper/replacement', 'ShopperController@replacement'); //to list the retailers

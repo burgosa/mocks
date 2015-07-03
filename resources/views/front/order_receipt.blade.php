@@ -14,7 +14,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-12">
-			<a href="{{ url('front/orders/receipt') }}">Ver Recibo</a>
+			<a href="">Ver Recibo</a>
 		</div>
 	</div>
 	<hr>

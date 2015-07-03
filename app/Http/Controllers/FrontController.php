@@ -37,4 +37,9 @@ class FrontController extends Controller {
 	{
 		return view('front.order_summary');
 	}
+
+	public function orders_receipt()
+	{
+		return view('front.order_receipt');
+	}
 }

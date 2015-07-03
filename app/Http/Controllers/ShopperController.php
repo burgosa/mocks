@@ -63,6 +63,11 @@ class ShopperController extends Controller {
 		return view('shopper.retailer-2-revision-end');
 	}
 
+	public function retailer_2_revision_factura()
+	{
+		return view('shopper.retailer-2-revision-factura');
+	}
+
 	public function product()
 	{
 		return view('shopper.product');

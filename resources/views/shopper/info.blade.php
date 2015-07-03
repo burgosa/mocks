@@ -25,6 +25,9 @@
 			<i class="fa fa-location-arrow"></i> <span style="line-height: 30px">Carrera 14 #111 30</span> <a class=" pull-right btn btn-sm btn-default">Mapa ></a>
 		</div>
 		<div class="col-md-12 block-heading border-bottom">
+			<span style="line-height: 30px">Instrucciones de Entrega</span>
+		</div>
+		<div class="col-md-12 block-heading border-bottom">
 			<b><i class="fa fa-clock-o"></i> <span style="line-height: 30px">Entrega 9/6/2015 7:30PM</span></b>
 		</div>
 		<div class="col-md-12 block-heading border-bottom">
