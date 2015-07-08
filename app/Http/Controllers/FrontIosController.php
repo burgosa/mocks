@@ -42,4 +42,9 @@ class FrontIosController extends Controller {
 	{
 		return view('frontios.order_summary_retailer');
 	}
+
+	public function time_picker()
+	{
+		return view('frontios.time_picker');
+	}
 }

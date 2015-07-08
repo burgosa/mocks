@@ -78,6 +78,37 @@
 	.special-block{
 		height: 48px;
 	}
+	.primary-bg{	
+		font-size: 20px;
+		font-weight: 800;
+		color: #2e6da4;
+		border-top: 1px solid #e5edec;
+		border-bottom: 1px solid #e5edec;
+		
+	}
+
+	.primary-bg-2{	
+		font-size: 18px;
+		font-weight: 300;
+		border-top: 1px solid #e5edec;
+		border-bottom: 1px solid #e5edec;
+		
+	}
+
+	.primary-bg .selected-time{
+
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: #2e6da4
+	}
+	.primary-bg .not-selected-time{
+
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.primary-bg .selected{
+		color: #fff;
+	}
 
 	</style>
 </head>

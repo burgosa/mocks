@@ -25,6 +25,7 @@ Route::get('front/orders/receipt', 'FrontController@orders_receipt'); //to list 
 Route::get('front-ios', 'FrontIosController@index'); //to list the retailers
 Route::get('front-ios/orders/summary', 'FrontIosController@orders_summary'); //to list the retailers
 Route::get('front-ios/orders/summary/retailer', 'FrontIosController@orders_summary_retailer'); //to list the retailers
+Route::get('front-ios/time-picker', 'FrontIosController@time_picker'); //to list the retailers
 
 
 
